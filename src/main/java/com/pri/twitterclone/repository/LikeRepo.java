@@ -21,6 +21,6 @@ public interface LikeRepo extends JpaRepository<Like, Long> {
 
     // Count total likes on a tweet
     long countByTweetLikeId(Long tweetId);
-
+ 
 
 }
