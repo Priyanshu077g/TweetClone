@@ -60,4 +60,12 @@ public class User {
     @OneToMany(mappedBy = "tweetLike")
     private Set<Like> tweetLike = new HashSet<>();
 
+    @JsonIgnore
+    @OneToMany(mappedBy = "userComment")
+    private Set<User> userComment = new HashSet<>();
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "tweetId")
+    private Set<Tweet> tweetId = new HashSet<>();
+
 }
