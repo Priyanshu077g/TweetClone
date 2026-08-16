@@ -56,6 +56,7 @@ com.example.minitwitter
 ## 🗄️ Entities
 
 ### User
+ 
 
 ```text
 id
